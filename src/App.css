@@ -117,3 +117,30 @@ input {
   font-weight: 500;
   font-size: 1.4rem;
 }
+
+@media (max-width: 660px) {
+  #root {
+    max-width: 100vw;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  #game-container {
+    background: #ffffff09;
+    border-radius: 10px;
+    height: 380px;
+    width: 340px;
+    box-shadow: 0 4px 15px #00000050;
+    position: relative;
+  }
+
+  #players li {
+    margin: 0 10px;
+    gap: 6px;
+    padding: 10px 20px;
+  }
+
+  #log {
+    display: none;
+  }
+}
